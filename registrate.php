@@ -7,16 +7,17 @@
     <title>Hash</title>
 </head>
 <body>
-    <form action="" method="POST" autocomplete="off">
+<form id="segundo" action="" method="POST" autocomplete="off" >
         <h1>Registro de Usuario</h1>
 
-        <label for="">Usuario</label>
-        <input type="text" name="usuario_usu" id="">
+        <label for="lab2">Usuario</label>
+        <input id="inp2" type="text" name="usuario_usu" id="">
 
-        <label for="">Password</label>
-        <input type="password" name="password_usu" id="">
+        <label id="l2" for="">Password</label>
+        <input id="i2" type="password" name="password_usu" id="">
         
-        <button type="submit" name="registro">Registro</button>
+        <button id="b2" type="submit" name="registro">Registro</button>
     </form>
+
 </body>
 </html>
